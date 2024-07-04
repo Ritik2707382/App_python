@@ -35,7 +35,7 @@ def extract_text_from_pdf(file):
 # Initialize Ollama client
 api_client = ollama.Client("http://localhost:11434")  # Create Ollama client instance with server address
 # Model Name of ollama
-model_name = "gemma2"
+model_name = "llama3"
 
 
 # Function to generate similarity score and summary
